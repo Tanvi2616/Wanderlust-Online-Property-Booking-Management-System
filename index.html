@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accommodation Booking</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="navbar.html">
+</head>
+<body>
+
+  <!-- Navbar -->
+   <div id="navbar"></div>
+
+  <!-- Hero Section -->
+  <header class="bg-light py-5 text-center hero-section"
+    style="background: url('images/hero.png') center/cover no-repeat; height: 70vh;">
+    <div class="container">
+      <h1 class="display-3 fw-bold">Find Your Perfect Stay</h1>
+      <p class="lead mb-4">Book accommodations easily and manage properties efficiently.</p>
+    </div>
+  </header>
+
+
+  <!-- Browse by Category Section -->
+<section class="property-categories py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Browse by Category</h2>
+    <div class="row g-4">
+
+      <!-- Category Card: Villa -->
+      <div class="col-md-3">
+        <a href="category.html?type=villa" class="text-decoration-none">
+          <div class="card shadow category-card">
+            <img src="https://t3.ftcdn.net/jpg/02/33/59/42/360_F_233594258_81s2Un5DEpmiHYxuOPAUfnrD0T9we5fd.jpg" class="card-img-top" alt="Villa">
+            <div class="card-body text-center">
+              <h5 class="card-title">Villas</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Category Card: Farmhouse -->
+      <div class="col-md-3">
+        <a href="category.html?type=farmhouse" class="text-decoration-none">
+          <div class="card shadow category-card">
+            <img src="https://i.pinimg.com/1200x/73/6e/ef/736eefb4b1fca5c8eee3ab9355e99ade.jpg" class="card-img-top" alt="Farmhouse">
+            <div class="card-body text-center">
+              <h5 class="card-title">Farmhouses</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Category Card: Hotels -->
+      <div class="col-md-3">
+        <a href="category.html?type=hotel" class="text-decoration-none">
+          <div class="card shadow category-card">
+            <img src="https://www.maramani.com/cdn/shop/files/37RoomHotelDesign-ID49903-Image01.jpg?v=1705036055&width=2048" class="card-img-top" alt="Hotels">
+            <div class="card-body text-center">
+              <h5 class="card-title">Hotels</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Category Card: Resorts -->
+      <div class="col-md-3">
+        <a href="category.html?type=resort" class="text-decoration-none">
+          <div class="card shadow category-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbY1rxM1D6iC2qSWSidRcQlvbZgwSY_dmEqQ&s" class="card-img-top" alt="Resorts">
+            <div class="card-body text-center">
+              <h5 class="card-title">Resorts</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Category Card: Apartments -->
+      <div class="col-md-3">
+        <a href="category.html?type=apartment" class="text-decoration-none">
+          <div class="card shadow category-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFNADfnbnEoqgqghmn4y7qR1uHaefN6y1KA&s" class="card-img-top" alt="Apartments">
+            <div class="card-body text-center">
+              <h5 class="card-title">Apartments</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Category Card: Beach House -->
+      <div class="col-md-3">
+        <a href="category.html?type=beach-house" class="text-decoration-none">
+          <div class="card shadow category-card">
+            <img src="https://cdn.houseplansservices.com/product/ockj9ahd2d2da1suld5q38goce/w560x373.jpg?v=11" class="card-img-top" alt="Beach Houses">
+            <div class="card-body text-center">
+              <h5 class="card-title">Beach Houses</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Category Card: Homestay -->
+      <div class="col-md-3">
+        <a href="category.html?type=Homestay" class="text-decoration-none">
+          <div class="card shadow category-card">
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/359840804.jpg?k=88625bc9172db42da129d836d2ccf91783f38dd2a79dde5149fb748a8bc0610b&o=&hp=1" class="card-img-top" alt="Homestay">
+            <div class="card-body text-center">
+              <h5 class="card-title">Homestay</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Category Card: Cottage  -->
+      <div class="col-md-3">
+        <a href="category.html?type=Cottage " class="text-decoration-none">
+          <div class="card shadow category-card">
+            <img src="https://4.imimg.com/data4/BL/WA/MY-2599162/cottages.jpg" class="card-img-top" alt="Cottage ">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cottage </h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <!-- Bootstrap JS -->
+  <script src="js/loadComponents.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <script src="script.js"></script>
+
+
+<script src="js/loadComponents.js"></script>
+
+</body>
+</html>
